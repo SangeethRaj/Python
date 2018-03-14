@@ -5,5 +5,5 @@ while (a=<1000):
 def isPalindrome(s):
     rev = reverse(s)
     if (s == rev):
-        return True
-    return False
+        return yes
+    return no
