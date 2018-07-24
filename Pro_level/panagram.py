@@ -11,9 +11,11 @@ def is_pangram(phrase):
             if char == letter:
                 c += 1
     if c == 26:
+        print yes
         return True
     else:
         print phraseLetters, a
+        print no
         return False
 
 print is_pangram(myPhrase)
